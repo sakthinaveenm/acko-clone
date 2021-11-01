@@ -1,0 +1,65 @@
+.static-footer-title {
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #151619;
+  padding-bottom: 10px;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.static-footer-address {
+  color: #414a53;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  width: 225px;
+  text-align: left;
+}
+
+.web-social-active-footer {
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #414a53;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.web-download-our-app-footer {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #414a53;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.web-social-arrange {
+  margin-left: 10px;
+}
+
+.web-footer-layout {
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.web-footer-layout-header {
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #414a53;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.web-footer-layout-link {
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 26px;
+  color: #151619;
+  cursor: pointer;
+}

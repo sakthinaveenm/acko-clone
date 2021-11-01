@@ -1,0 +1,230 @@
+.Navbar-navbar {
+  background-color: violet;
+}
+.web-nav {
+  /* margin-left: 200px; */
+  margin-top: 17px;
+}
+.webview-link:hover {
+  cursor: pointer;
+}
+.webview-link {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+  background: none !important;
+  border: none !important;
+  /* margin-top: -2px !important; */
+}
+.webview-link-1 {
+  margin-right: 20px;
+  margin-left: 230px;
+}
+.webview-link-2 {
+  margin-right: 480px;
+  margin-left: 20px;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-violet {
+  background-color: #5e27ca;
+  padding: 5px;
+}
+
+.login-card {
+  margin-top: -5px;
+  width: 300px;
+  padding-left: 30px !important;
+  color: #ffffff;
+  font-size: 14px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  background-color: #491f9d !important;
+  padding: 5px;
+}
+.claim-icons {
+  margin-top: -3px;
+
+  position: relative;
+  z-index: 10;
+  margin-right: -20px;
+}
+.login-card-btn {
+  width: 60px;
+  height: 22px;
+  background-color: #38c77d;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: -75px;
+  position: relative;
+  z-index: 10;
+  margin-top: 1px;
+  font-size: 12px;
+}
+.webview-link-3 {
+  margin-left: 70px;
+}
+.product-menu {
+  margin-top: 35px !important;
+  position: absolute !important;
+  left: 0;
+  z-index: 110 !important;
+  width: 100vw !important;
+  height: 255px !important;
+  background-color: #ffffff;
+  transition: 2s;
+  /* transition: 0.3s !important; */
+}
+
+.arrow-up {
+  position: fixed !important;
+  z-index: 100 !important;
+  top: 33px;
+  left: 350px;
+  width: 0;
+  height: 0 !important;
+  /* margin-top: 15px !important; */
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+}
+
+.display-false {
+  display: none;
+}
+
+.align-pm {
+  margin-left: 160px;
+}
+.box-pm {
+  width: max-content;
+  text-align: left;
+}
+.elements-pm {
+  margin: 10px;
+}
+.elements-pm:hover {
+  cursor: pointer;
+  background-color: #787c80;
+}
+.elements-pm-head {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #434f5a;
+}
+.m-dss {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.mob-nav {
+  padding-top: 10px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.button-card {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.button-card:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #046daa;
+}
+
+.cancelbtn1 {
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  position: relative;
+  width: 350px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.container1 {
+  position: relative;
+  width: 450px;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  color: black;
+}
+
+.sign {
+  position: relative;
+  z-index: 10;
+  margin-top: -250px;
+  margin-left: 900px;
+  width: 450px;
+  padding: 0;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}

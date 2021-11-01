@@ -1,0 +1,44 @@
+.info-main-web {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #282e33;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.web-info-product-heading {
+  text-align: center;
+  font-size: 18px;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #282e33;
+  line-height: 24px;
+  font-weight: 600;
+}
+.web-info-product-sub-heading {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  /* max-width: 300px; */
+  line-height: 20px;
+  font-weight: 400;
+  color: #434f5a;
+}
+.web-info-product-image {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.web-info-product {
+  justify-content: center;
+}
+.web-info-single-product {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dfc-mob {
+  display: flex !important;
+  flex-direction: column !important;
+}

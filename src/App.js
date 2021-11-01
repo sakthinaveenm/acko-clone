@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState, useEffect, useLayoutEffect } from "react";
+import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
+import Info from "./components/Info/Info";
+import Navbar from "./components/Navbar/Navbar";
+import Partners from "./components/Partners/Partners";
+import Scoreboard from "./components/Scoreboard/Scoreboard";
+import DisplayAds from "./hikw.png";
+import useWindowDimensions from "./components/WindowDimension/useWindowDimensions";
 function App() {
+  const { width } = useWindowDimensions();
+  const [mobileWidth, setMobilewidth] = useState(false);
+
+  useEffect(() => {
+    if (width <= 1024 || width <= 700) {
+      setMobilewidth(true);
+    } else {
+      setMobilewidth(false);
+    }
+  }, [width]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar style={{ width: "100vw" }} mobileWidth={mobileWidth} />
+      <Banner style={{ width: "100vw" }} mobileWidth={mobileWidth} />
+      {mobileWidth && (
+        <img
+          style={{
+            width: "100%",
+            height: "160px",
+            marginTop: "20px",
+            marginBottom: "20px",
+          }}
+          src={DisplayAds}
+          alt=""
+        />
+      )}
+
+      <Scoreboard style={{ width: "100%" }} mobileWidth={mobileWidth} />
+      <Partners mobileWidth={mobileWidth} />
+      <Info mobileWidth={mobileWidth} />
+      <Footer mobileWidth={mobileWidth} />
     </div>
   );
 }

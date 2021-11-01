@@ -1,0 +1,51 @@
+.web-scoreboard-feedBackContent {
+  width: 340px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.webview-feedback-user-name-scoreboard {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 10px;
+  font-weight: 600;
+  color: #151619;
+}
+.webview-feedback-user-location-scoreboard {
+  margin-top: 5px;
+  margin-left: 5px;
+
+  line-height: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #555a68;
+  font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.mob-scoreboard-feedBackContent {
+  color: #151619;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  max-width: 320px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.web-feedback-background {
+  margin-top: 10px;
+  background-color: #f6f7fb;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.mob-feedback-background {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom: 10px solid #eeeeee;
+}
+
+@media screen {
+  
+}
